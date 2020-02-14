@@ -67,14 +67,12 @@ h1 {
     align-self: flex-end;
     justify-self: end;
 }
-a:link { /* unvisited link */
-    color: red; }
-    a:visited { /* visited link */
+a:visited { /* visited link */
     color: #292929;
-    }
-    a:hover { /* mouse over link */
+}
+a:hover { /* mouse over link */
     color: #c7c7c7;
-    }
-    a:active { /* selected link */
+}
+a:active { /* selected link */
     color: #292929;
-    }
+}
