@@ -1,5 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+
 html {
-    background-color: rgb(109, 109, 109);;
+    background-color: rgb(109, 109, 109);
 }
 
 body {
@@ -34,7 +38,7 @@ h1 {
     text-align: center;
 }
 .headline {
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Odibee Sans';
     color: #292929;
     font-style: italic;
     font-size: 30px;
@@ -46,7 +50,7 @@ h1 {
     color: #292929;
     font-size: 30px;
     width: 500px;
-    text-align: center;
+    display: inline-block;
 }
 .bread-text {
     font-family: 'Odibee Sans', cursive;
@@ -66,6 +70,34 @@ h1 {
 .dude {
     align-self: flex-end;
     justify-self: end;
+}
+.portfolio-box {
+    background-color: rgb(109, 109, 109);
+    width: 650px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.contact-box {
+    background-color: rgb(109, 109, 109);
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.submit {
+width: 60px;
+position: relative;
+left: 250px;
+}
+input {
+    position: relative;
+    width: 400px;
+    left: 20px;
+}
+.name-box  {
+    position: relative;
+    width: 400px;
+    left: 23px;
 }
 a:visited { /* visited link */
     color: #292929;
