@@ -7,12 +7,10 @@ html {
 }
 
 body {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     background-color: #464646;
     width: 960px;
     margin: auto;
+    text-align: center;
 }
 .divider {
     width: 350px;
@@ -36,6 +34,7 @@ h1 {
     color: rgb(155, 155, 155);
     font-size: 78px;
     text-align: center;
+    margin: auto;
 }
 .headline {
     font-family: 'Odibee Sans';
@@ -44,6 +43,8 @@ h1 {
     font-size: 30px;
     width: 350px;
     text-align: center;
+    margin: auto;
+
 }
 .headline2 {
     font-family: 'Odibee Sans', cursive;
@@ -51,6 +52,9 @@ h1 {
     font-size: 30px;
     width: 500px;
     display: inline-block;
+    text-align: center;
+    margin: auto;
+
 }
 .bread-text {
     font-family: 'Odibee Sans', cursive;
@@ -58,18 +62,21 @@ h1 {
     width: 350px;
     color: rgb(155, 155, 155);
     text-align: center;
+    margin: auto;
+
 }
 .info-text {
     font-family: 'Coda Caption', sans-serif;
     color: rgb(155, 155, 155);
     text-align: center;
+    margin: auto;
+
 }
 .sidfot {
     color: rgb(155, 155, 155);
 }
 .dude {
-    align-self: flex-end;
-    justify-self: end;
+
 }
 .portfolio-box {
     background-color: rgb(109, 109, 109);
@@ -77,17 +84,20 @@ h1 {
     padding: 20px;
     border-radius: 10px;
     text-align: center;
+    margin: auto;
+
 }
 .contact-box {
     background-color: rgb(109, 109, 109);
     width: 600px;
     padding: 20px;
     border-radius: 10px;
+    margin: auto;
+
 }
 .submit {
 width: 60px;
 position: relative;
-left: 250px;
 }
 input {
     position: relative;
